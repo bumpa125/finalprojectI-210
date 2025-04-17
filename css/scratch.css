@@ -1,0 +1,61 @@
+/* Base styles */
+body {
+    background-color: #FA8072; /* solid salmon background */
+    background-image: none;
+    font-family: 'Georgia', serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation */
+  .nav {
+    background-color: rgba(255, 255, 255, 0.15); /* soft white overlay */
+    padding: 12px;
+    text-align: center;
+  }
+  .nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Header */
+  .header {
+    background-color: rgba(255, 255, 255, 0.1); /* soft white overlay */
+    padding: 40px;
+    text-align: center;
+  }
+  .header h1 {
+    color: #ffffff;
+  }
+  
+  /* Sections */
+  .section {
+    background-color: rgba(255, 255, 255, 0.1); /* light white overlay */
+    margin: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    color: #ffffff;
+  }
+  
+  /* Images */
+  .main-img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    margin: 40px 0;
+  }
+  .footer a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+  }
